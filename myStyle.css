@@ -1,7 +1,9 @@
-
-body{
+body {
     font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 ul.navbar {
     display: flex;
     align-items: center;
@@ -22,7 +24,7 @@ ul.navbar .logo {
 }
 
 ul.navbar .logo img {
-    height: 50px; 
+    height: 50px;
 }
 
 .buttons {
@@ -62,7 +64,8 @@ ul.navbar .logo img {
 .icons img:hover {
     opacity: 0.7;
 }
-.Contact{
+
+.Contact {
     text-align: center;
     gap: 10px;
     display: flex;
@@ -70,10 +73,92 @@ ul.navbar .logo img {
     align-items: center;
     margin: 10px;
     color: white;
-    background-color: #53df62;
+    background-color: #39db4a;
     border: 0px;
     border-radius: 50px;
     height: 40px;
     width: 120px;
     font-size: 16px;
+}
+.Contact img{
+    height: 18px;
+    width: 18px;
+}
+
+Main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 30px;
+}
+
+Main img {
+    height: 750px;
+    width: auto;
+    display: block;
+}
+
+.green {
+    color: #53df62;
+}
+
+.mainSection {
+    flex: 1;
+    padding: 20px;
+}
+
+.mainSection > h1 {
+    font-size: 30px;
+}
+
+.buttonsInMainSection {
+    display: flex;
+    gap: 20px;
+}
+
+.buttonsInMainSection button {
+    background-color: #39db4a;
+    border-radius: 40px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    box-shadow: 10px 10px 8px #53df6160;
+    cursor: pointer;
+}
+
+.buttonsInMainSection img {
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px #787e7914;
+}
+
+.buttonsInMainSection section {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.rightSection {
+    position: relative;
+}
+
+.imgCards {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px;
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
 }
