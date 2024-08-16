@@ -89,7 +89,7 @@ Main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 100px;
+    padding-left: 150px;
     padding-right: 100px;
 }
 
@@ -105,17 +105,19 @@ Main img {
 
 .mainSection {
     flex: 1;
-
+    width: 1000px;
     width: fit-content;
 }
 
 .mainSection > h1 {
     font-size: 30px;
+    padding-bottom: 20px;
 }
 
 .buttonsInMainSection {
     display: flex;
     gap: 20px;
+    padding-top: 30px;
 }
 
 .buttonsInMainSection button {
