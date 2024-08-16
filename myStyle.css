@@ -89,8 +89,8 @@ Main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    gap: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 Main img {
@@ -105,7 +105,8 @@ Main img {
 
 .mainSection {
     flex: 1;
-    padding: 20px;
+
+    width: fit-content;
 }
 
 .mainSection > h1 {
