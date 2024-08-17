@@ -153,15 +153,105 @@ Main img {
 
 .imgCards {
     position: absolute;
-    top: 75%;
-    left: 50%;
+    top: 80%;
+    left: 60%;
     transform: translate(-50%, -50%);
     display: flex;
     gap: 20px;
 }
+.card{
+    background-color: white;
+    color: palegoldenrod;
+    box-shadow: 10px 10px 10px 10px #787e7914;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    width: 250px;
+    height: 100px;
+    padding: 10px;
 
+    overflow: hidden;
+    position: relative;
+
+    height: fit-content;
+    
+}
+
+.cardDetails{
+
+    height: 50%;
+    color: rgb(129, 127, 122);
+    display: flex;
+    flex-direction: column; 
+
+    gap: 0px;
+    justify-content: space-evenly; 
+    padding-bottom: 0px;
+    
+  }
 .card img {
     height: 100px;
     width: 100px;
     border-radius: 10px;
+}
+.checked {
+    color: rgb(255, 238, 1);
+  }
+
+
+.red{
+
+    color: #ad0000;
+}
+
+
+.cardDetails h5 {
+    margin-bottom: 2px; 
+    padding: 0px;
+}
+
+.cardDetails .Ratings {
+    margin-bottom: 2px; 
+    padding: 0px;
+}
+
+.cardDetails h6 {
+    margin-top: 2px; 
+    padding: 0px;
+    padding-bottom: 0px;
+}
+
+.PopularCatagories{
+    text-align: center;
+    
+}
+.PopularCatagories h4{
+    color: #cc3131;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+
+}
+.PopularCatagories h2{
+    font-size: 40px;
+}
+.PopularCrds{
+    display: flex;
+    justify-content: space-evenly;
+}
+.popCard{
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px 10px #787e7914;
+    border-radius: 30px;
+height: 30vh;
+width: 30vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.popCard img{
+
+    height: 15vh;
+    width: 15vw;
+    object-fit: contain; 
 }
