@@ -271,17 +271,70 @@ width: 30vh;
     padding-left: 0px;
 }
 
-
-.dishes article{
-
-    border-radius: 30px;
-    height: 50%;
-    width: 25%;
-    align-items: center;
+.dishCard{
     box-shadow: 10px 10px 10px 10px #787e7914;
+    height:fit-content;
+    width: 30%;
+    border-radius: 30px;
+}
+.dishes .withPadding{
+  
+    height: 100%;
+    width: 90%;
+    padding: 20px;
+    padding-bottom: 2px;
+    padding-top: 0px;
+    margin-top: 0px;
+    align-items: center;
+  
     margin-left:0 ;
 }
+.dishes .withoutPadding{
 
+}
+
+.dishes article h3,h4,p,img{
+    margin: 0px;
+    padding: 0px;
+
+}
+.dishes article h3{
+font-weight: 400;
+
+}
+.favBtn{
+    text-align: right;
+    width: 100%;
+    padding: 0 !important;
+    border-radius: 100px;
+    margin: 0px !important;
+}
+.favBtn i{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+ .love{
+    height: 60px;
+    width: 60px;
+
+    color: white;
+    border-top-right-radius:30px;
+    border-bottom-left-radius:30px;
+    background-color: #39db4a;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dishes article h4{
+    font-weight: 200;
+    
+    }
 .dishImg{
     height: 60%;
     width: 60%;
@@ -332,8 +385,4 @@ width: 30vh;
     color:  #dbdbdb;
     font-size: 300%;
 
-}
-.dishes div{
-    display: flex;
-    justify-content: space-between;
 }
