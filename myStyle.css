@@ -110,7 +110,7 @@ Main img {
 }
 
 .mainSection > h1 {
-    font-size: 30px;
+    font-size: 40px;
     padding-bottom: 20px;
 }
 
@@ -222,6 +222,8 @@ Main img {
 }
 
 .PopularCatagories{
+    padding-left: 150px;
+    padding-right: 100px;
     text-align: center;
     
 }
@@ -254,4 +256,84 @@ width: 30vh;
     height: 15vh;
     width: 15vw;
     object-fit: contain; 
+}
+.dishesHeader{
+    display:flex !important;
+    flex-direction: row !important;
+
+    
+}
+.dishes{
+    display:flex;
+    justify-content:center;
+    justify-content: space-between;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+
+.dishes article{
+
+    border-radius: 30px;
+    height: 50%;
+    width: 25%;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px #787e7914;
+    margin-left:0 ;
+}
+
+.dishImg{
+    height: 60%;
+    width: 60%;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dishes__{
+
+    margin-top: 150px;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+.dishesHeader{
+
+    width: 100%;
+    justify-content: space-between;
+}
+.dishesHeader p{
+    color:#cc3131;
+    text-transform: uppercase;
+    font-weight:400;
+    letter-spacing: 0.1rem;
+}
+.dishesHeader h2{
+    color: black;
+    
+    font-weight: bold;
+    font-size: 40px;
+}
+.dishesHeader .navs{
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    height: 8vh;
+    width: 8vw;
+
+}
+
+.dishesHeader .navsR{
+    color:  #39db4a;
+    font-size: 300%;
+}
+.dishesHeader .navsL{
+    color:  #dbdbdb;
+    font-size: 300%;
+
+}
+.dishes div{
+    display: flex;
+    justify-content: space-between;
 }
