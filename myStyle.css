@@ -272,10 +272,13 @@ width: 30vh;
 }
 
 .dishCard{
+    background-color: white;
     box-shadow: 10px 10px 10px 10px #787e7914;
     height:fit-content;
     width: 30%;
     border-radius: 30px;
+    padding-top: 0%;
+    margin-top: 0%;
 }
 .dishes .withPadding{
   
@@ -288,9 +291,6 @@ width: 30vh;
     align-items: center;
   
     margin-left:0 ;
-}
-.dishes .withoutPadding{
-
 }
 
 .dishes article h3,h4,p,img{
@@ -310,18 +310,23 @@ font-weight: 400;
     margin: 0px !important;
 }
 .favBtn i{
-    justify-content: center;
+
+    background-color: #39db4a;
     align-items: center;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0%;
+    height: 115%;
+    width: 15%;
 }
 
 
  .love{
     height: 60px;
     width: 60px;
-
     color: white;
     border-top-right-radius:30px;
     border-bottom-left-radius:30px;
@@ -329,6 +334,8 @@ font-weight: 400;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0%;
+    margin: 0%;
 }
 
 .dishes article h4{
@@ -385,4 +392,12 @@ font-weight: 400;
     color:  #dbdbdb;
     font-size: 300%;
 
+}
+.withPadding div{
+    
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5%;
 }
